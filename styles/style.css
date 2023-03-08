@@ -1,0 +1,46 @@
+body{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.left-side {
+    background-image: url(../assets/left_bg.png);
+    background-repeat: no-repeat;
+}
+
+.name-section {
+    background-image: url(../assets/after_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.title-border {
+    background-image: url(../assets/border.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+#title-container > span {
+     margin-left: 3px;
+     padding-left: 3px;    
+}
+
+#title-container > span:not(:first-child){
+    border-left: 1px solid black;
+}
+.ul-list {
+    line-height: 16px;
+}
+
+.ul-list:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.eidt-btn{
+    visibility: hidden;
+    cursor: pointer;
+}
+.text-element:hover > .eidt-btn{
+    visibility: visible;
+}
